@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.ActivityFin">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName14"
+        android:layout_width="380dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:hint="Graduaciones (separar en comas)"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="582dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber10"
+        android:layout_width="158dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Vehiculos retenidos"
+        android:inputType="number"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/editTextNumber9"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber9"
+        android:layout_width="158dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Licencias retenidas"
+        android:inputType="number"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/editTextNumber10"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber8"
+        android:layout_width="126dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="Infraccionados"
+        android:inputType="number"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/editTextNumber7"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber7"
+        android:layout_width="117dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="Controlados"
+        android:inputType="number"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/editTextNumber8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber3"
+        android:layout_width="69dp"
+        android:layout_height="33dp"
+        android:ems="10"
+        android:hint="Inicio"
+        android:inputType="number"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/editTextNumber4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="69dp"
+        android:layout_height="20dp"
+        android:text="Horario"
+        app:layout_constraintEnd_toStartOf="@+id/editTextNumber3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber4"
+        android:layout_width="76dp"
+        android:layout_height="33dp"
+        android:ems="10"
+        android:hint="Fin"
+        android:inputType="number"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/editTextNumber3"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName11"
+        android:layout_width="367dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="Dominios de los moviles"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.379"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agentes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName10"
+        android:layout_width="365dp"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:hint="Apellidos de los agentes"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Moviles"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine2"
+        android:layout_width="287dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Observaciones"
+        android:inputType="textMultiLine"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="663dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Observaciones"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="628dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datos del operativo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Motivos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="444dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName13"
+        android:layout_width="380dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:hint="Motivos (separar en comas)"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="477dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alcoholemias positivas "
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="533dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

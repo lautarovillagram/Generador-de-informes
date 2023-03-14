@@ -7,7 +7,7 @@
     tools:context=".activitys.ActivityInicio">
 
     <EditText
-        android:id="@+id/editTextTextPersonName6"
+        android:id="@+id/fldLugarDelOperativo"
         android:layout_width="296dp"
         android:layout_height="40dp"
         android:ems="10"
@@ -16,11 +16,11 @@
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintStart_toEndOf="@+id/textLugarOperativo"
         tools:layout_editor_absoluteY="162dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/fldTipoDeOperativo"
         android:layout_width="296dp"
         android:layout_height="40dp"
         android:ems="10"
@@ -29,21 +29,21 @@
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintStart_toEndOf="@+id/textTipoOperativo"
         tools:layout_editor_absoluteY="108dp" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textTipoOperativo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tipo:"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName4"
+        app:layout_constraintEnd_toStartOf="@+id/fldTipoDeOperativo"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="120dp" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/fldInicioHorario"
         android:layout_width="122dp"
         android:layout_height="39dp"
         android:ems="10"
@@ -51,13 +51,13 @@
         android:inputType="number"
         android:textAlignment="center"
         android:textSize="14sp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumber2"
+        app:layout_constraintEnd_toStartOf="@+id/fldFinHorario"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="252dp" />
 
     <EditText
-        android:id="@+id/editTextNumber2"
+        android:id="@+id/fldFinHorario"
         android:layout_width="115dp"
         android:layout_height="37dp"
         android:ems="10"
@@ -67,11 +67,11 @@
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/editTextNumber"
+        app:layout_constraintStart_toEndOf="@+id/fldInicioHorario"
         tools:layout_editor_absoluteY="252dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/fldNombreDeBase"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -80,22 +80,22 @@
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintStart_toEndOf="@+id/textBase"
         tools:layout_editor_absoluteY="48dp" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textBase"
         android:layout_width="45dp"
         android:layout_height="25dp"
         android:text="Base:"
         android:textSize="16sp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/fldNombreDeBase"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="62dp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textHorarioOperativo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Horario"
@@ -203,16 +203,16 @@
         android:layout_height="wrap_content"
         android:text="Generar informe"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="669dp" />
+        tools:layout_editor_absoluteY="658dp" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/textLugarOperativo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Lugar:"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName6"
+        app:layout_constraintEnd_toStartOf="@+id/fldLugarDelOperativo"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="172dp" />

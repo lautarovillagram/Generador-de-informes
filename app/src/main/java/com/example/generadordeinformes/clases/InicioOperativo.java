@@ -1,5 +1,10 @@
 package com.example.generadordeinformes.clases;
 
+import java.sql.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class InicioOperativo {
     private String base;
     private String tipoOperativo;
@@ -94,6 +99,14 @@ public class InicioOperativo {
         this.dominios = dominios;
         this.fuerza = fuerza;
         this.observaciones = observaciones;
+    }
+
+    public List<String> separarString(String stringASeparar) {
+        String str = stringASeparar;
+        List<String> listaDeStr = new ArrayList<>;
+        listaDeStr = str.split(",");
+
+        return listaDeStr;
     }
 }
 

@@ -7,7 +7,7 @@
     tools:context=".activitys.ActivityFin">
 
     <EditText
-        android:id="@+id/editTextTextPersonName14"
+        android:id="@+id/fldGraduaciones"
         android:layout_width="391dp"
         android:layout_height="39dp"
         android:ems="10"
@@ -20,7 +20,7 @@
         tools:layout_editor_absoluteY="550dp" />
 
     <EditText
-        android:id="@+id/editTextNumber10"
+        android:id="@+id/fldVehiculosRetenidos"
         android:layout_width="158dp"
         android:layout_height="43dp"
         android:ems="10"
@@ -29,24 +29,24 @@
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/editTextNumber9"
+        app:layout_constraintStart_toEndOf="@+id/fldLicenciasRetenidas"
         tools:layout_editor_absoluteY="380dp" />
 
     <EditText
-        android:id="@+id/editTextNumber9"
+        android:id="@+id/fldLicenciasRetenidas"
         android:layout_width="158dp"
         android:layout_height="43dp"
         android:ems="10"
         android:hint="Licencias retenidas"
         android:inputType="number"
         android:textSize="14sp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumber10"
+        app:layout_constraintEnd_toStartOf="@+id/fldVehiculosRetenidos"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="380dp" />
 
     <EditText
-        android:id="@+id/editTextNumber8"
+        android:id="@+id/fldInfraccionados"
         android:layout_width="126dp"
         android:layout_height="39dp"
         android:ems="10"
@@ -55,47 +55,47 @@
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/editTextNumber7"
+        app:layout_constraintStart_toEndOf="@+id/fldControlados"
         tools:layout_editor_absoluteY="324dp" />
 
     <EditText
-        android:id="@+id/editTextNumber7"
+        android:id="@+id/fldControlados"
         android:layout_width="126dp"
         android:layout_height="39dp"
         android:ems="10"
         android:hint="Controlados"
         android:inputType="number"
         android:textSize="16sp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumber8"
+        app:layout_constraintEnd_toStartOf="@+id/fldInfraccionados"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="324dp" />
 
     <EditText
-        android:id="@+id/editTextNumber3"
+        android:id="@+id/fldHorarioInicio"
         android:layout_width="69dp"
         android:layout_height="33dp"
         android:ems="10"
         android:hint="Inicio"
         android:inputType="number"
         android:textSize="12sp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumber4"
+        app:layout_constraintEnd_toStartOf="@+id/fldHorarioFin"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintStart_toEndOf="@+id/txtHorario"
         tools:layout_editor_absoluteY="51dp" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/txtHorario"
         android:layout_width="68dp"
         android:layout_height="26dp"
         android:text="Horario"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumber3"
+        app:layout_constraintEnd_toStartOf="@+id/fldHorarioInicio"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="58dp" />
 
     <EditText
-        android:id="@+id/editTextNumber4"
+        android:id="@+id/fldHorarioFin"
         android:layout_width="76dp"
         android:layout_height="33dp"
         android:ems="10"
@@ -104,11 +104,11 @@
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/editTextNumber3"
+        app:layout_constraintStart_toEndOf="@+id/fldHorarioInicio"
         tools:layout_editor_absoluteY="51dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName11"
+        android:id="@+id/fldDominiosMovilesFin"
         android:layout_width="367dp"
         android:layout_height="42dp"
         android:ems="10"
@@ -120,7 +120,7 @@
         tools:layout_editor_absoluteY="227dp" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/txtAgentesFin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Agentes"
@@ -130,7 +130,7 @@
         tools:layout_editor_absoluteY="107dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName10"
+        android:id="@+id/fldApellidosFin"
         android:layout_width="367dp"
         android:layout_height="42dp"
         android:ems="10"
@@ -142,7 +142,7 @@
         tools:layout_editor_absoluteY="139dp" />
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/txtMovilesFin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Moviles"
@@ -152,7 +152,7 @@
         tools:layout_editor_absoluteY="192dp" />
 
     <EditText
-        android:id="@+id/editTextTextMultiLine2"
+        android:id="@+id/fldObservacionesFin"
         android:layout_width="391dp"
         android:layout_height="39dp"
         android:ems="10"
@@ -167,7 +167,7 @@
         tools:layout_editor_absoluteY="624dp" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/txtObservacionesFin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Observaciones"
@@ -176,7 +176,7 @@
         tools:layout_editor_absoluteY="597dp" />
 
     <TextView
-        android:id="@+id/textView18"
+        android:id="@+id/txtDatosOperativo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Datos del operativo"
@@ -185,7 +185,7 @@
         tools:layout_editor_absoluteY="285dp" />
 
     <TextView
-        android:id="@+id/textView19"
+        android:id="@+id/txtMotivos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Motivos"
@@ -195,7 +195,7 @@
         tools:layout_editor_absoluteY="444dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName13"
+        android:id="@+id/fldMotivos"
         android:layout_width="391dp"
         android:layout_height="39dp"
         android:ems="10"
@@ -209,7 +209,7 @@
         tools:layout_editor_absoluteY="477dp" />
 
     <TextView
-        android:id="@+id/textView20"
+        android:id="@+id/txtAlcoholemiasPositivas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Alcoholemias positivas "
@@ -219,7 +219,7 @@
         tools:layout_editor_absoluteY="524dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnGenerarInformeFin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="generar informe"

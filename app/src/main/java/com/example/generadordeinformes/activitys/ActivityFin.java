@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.generadordeinformes.R;
+import com.example.generadordeinformes.clases.FinOperativo;
 
 public class ActivityFin extends AppCompatActivity {
 
@@ -13,4 +14,6 @@ public class ActivityFin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fin);
     }
+
+
 }

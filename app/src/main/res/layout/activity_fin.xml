@@ -82,7 +82,7 @@
         app:layout_constraintEnd_toStartOf="@+id/fldHorarioFin"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/txtHorario"
-        tools:layout_editor_absoluteY="51dp" />
+        tools:layout_editor_absoluteY="58dp" />
 
     <TextView
         android:id="@+id/txtHorario"
@@ -92,7 +92,7 @@
         app:layout_constraintEnd_toStartOf="@+id/fldHorarioInicio"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="58dp" />
+        tools:layout_editor_absoluteY="65dp" />
 
     <EditText
         android:id="@+id/fldHorarioFin"
@@ -105,7 +105,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/fldHorarioInicio"
-        tools:layout_editor_absoluteY="51dp" />
+        tools:layout_editor_absoluteY="58dp" />
 
     <EditText
         android:id="@+id/fldDominiosMovilesFin"
@@ -227,5 +227,15 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="669dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="303dp"
+        android:layout_height="37dp"
+        android:text="cargar operativo iniciado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="4dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
